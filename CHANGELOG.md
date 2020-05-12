@@ -1,6 +1,35 @@
 CHANGELOG
 =========
 
+Version 3.4.4 (released in 2020-05-08)
+---------------------------------------
+
+* Clone optional objects (#625). Credits to @acharlop.
+* RTCSession: fix, allow initial INVITE no SDP/offer (#624). Credits to @mgoodenUK.
+
+Version 3.4.3 (released in 2020-04-22)
+---------------------------------------
+
+* Transactions: destroy transaction in Timer I after terminating. Thanks Juha Heinanen for reporting the issue.
+
+Version 3.4.2 (released in 2020-04-03)
+---------------------------------------
+
+* RTCSession: disable remote hold state when receiving an INVITE without SDP (#613). Credits to @RobyMcAndrew.
+
+
+Version 3.4.1 (released in 2020-03-30)
+---------------------------------------
+
+* RequestSender: fix Authorization header addition for jwt use.
+
+
+Version 3.4.0 (released in 2020-03-29)
+---------------------------------------
+
+* Add `authorization_jwt` configuration parameter (#610). Credits to @voicenter.
+
+
 Version 3.3.11 (released in 2019-10-24)
 ---------------------------------------
 
